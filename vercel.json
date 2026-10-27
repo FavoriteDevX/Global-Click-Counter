@@ -4,6 +4,6 @@
   "routes": [
     { "src": "/api/counter", "dest": "/api/counter.js" },
     { "src": "/api/click", "dest": "/api/click.js" },
-    { "src": "/(.*)", "dest": "/public/$1" }
+    { "src": "/(.*)", "dest": "/$1" }
   ]
 }
