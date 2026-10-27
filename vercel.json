@@ -1,9 +1,0 @@
-{
-  "version": 2,
-  "cleanUrls": true,
-  "routes": [
-    { "src": "/api/counter", "dest": "/api/counter.js" },
-    { "src": "/api/click", "dest": "/api/click.js" },
-    { "src": "/(.*)", "dest": "/$1" }
-  ]
-}
